@@ -1,0 +1,11 @@
+.item1{
+    width: 200px;
+    height:200px ;
+    border: 1px solid rgb(137, 211, 18)  ;
+    
+}
+#maindiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

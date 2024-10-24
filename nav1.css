@@ -1,0 +1,25 @@
+#navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+#navbar nav ul li a img{
+
+    width: 40px;
+    height: 40px;
+
+    
+
+}
+#navbar nav ul li a {
+    text-decoration: none;
+    color: rgb(255,0,0);
+}
+#navbar nav ul li a{
+    border: 2px solid red ;
+    background-color: black;
+}
+#navbar{
+    background-color: orange;
+}

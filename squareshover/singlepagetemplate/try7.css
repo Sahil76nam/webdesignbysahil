@@ -1,0 +1,20 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#navbar{
+    position: fixed;
+}
+#navbar nav{
+    display: flex;
+    justify-content: space-around ;
+}
+#navbar nav ul{
+    display: flex;
+    background-color: aqua;
+    gap: 40px;
+    margin-left: 350px; 
+    list-style: none;
+}
+#navbar nav ul a{
+    text-decoration: none;}
