@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+  position: relative;
+  
+
+
+}
+#navbar .logo span{
+    color:royalblue;
+}
+#navbar .logo{
+    margin-left: 10px;
+}
+#navbar .navoption{
+    display: flex;
+    gap: 10px;
+    padding-right: 7vw;
+    
+}
+
+
+#navbar .navoption a{
+    gap: 10px;
+    text-decoration: none;
+    
+    font-size: small;
+
+}
+#navbar .navoption a:hover{
+    background-color: bisque;
+    color: chocolate;
+    transition: 2s;
+}
+#navbar .menu{
+    margin-right: 10px;
+    display: none;
+}
+@media (max-width:450px) {
+    #navbar .navoption{
+
+        display: none;
+    }
+    #navbar .logo{
+        font-size: 3vh;
+    }
+    #navbar .menu{
+        display: block;
+    }
+    
+}
