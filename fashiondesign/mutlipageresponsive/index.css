@@ -4,22 +4,289 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
+.menu {
+  margin-right: 2vw;
+  font-size: 2rem;
+  position: absolute;
+  z-index: 1999;
+  top: 5%;
+  right: 8%;
+  display: none;
 }
 
 #nav {
-  background-color: aqua;
-  height: 15vh;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  background-color: aqua;
+  width: 100%;
+  height: 15vh;
   position: fixed;
   top: 0%;
+  z-index: 999;
+}
+#nav #navbar {
+  display: flex;
+  gap: 15px;
+}
+#nav .logo {
+  margin-left: 2vw;
+}
+#nav #navbar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-right: 2vw;
+  font-size: 1.7rem;
+}
+#nav #navbar a:hover {
+  background-color: red;
+}
+#nav .logo {
+  height: 60px;
+  width: 60px;
 }
 
-.logo {
-  height: 40px;
-  width: 40px;
+main #image {
+  padding-top: 15vh;
+  top: 15%;
+}
+
+h2 {
+  margin-left: 6vw;
+  padding-top: 20px;
+}
+
+hr {
+  width: 30vw;
+}
+
+p {
+  color: goldenrod;
+  margin-left: 15vw;
+  margin-top: 1.5vh;
+}
+
+#box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+
+.box1 {
+  width: 240px;
+  height: 260px;
+  opacity: 0.6;
+  position: relative;
+}
+
+.text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+}
+
+.box2 {
+  width: 240px;
+  height: 260px;
+  opacity: 0.6;
+  position: relative;
+}
+.box2 .text2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+}
+
+.box3 {
+  width: 240px;
+  height: 260px;
+  opacity: 0.6;
+  position: relative;
+}
+.box3 .text3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-bottom: 45px;
+}
+
+.box4 {
+  width: 220px;
+  height: 200px;
+  opacity: 0.6;
+}
+.box4 h4 {
+  color: goldenrod;
+}
+
+#sale {
+  width: 100%;
+  height: 520px;
+  background-color: rgb(216, 144, 11);
+  display: flex;
+  flex-wrap: wrap;
+}
+#sale .saleimage {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+#sale .paragraph {
+  padding: 60px 0;
+  padding-left: 100px;
+}
+#sale .h1 {
+  background-color: aliceblue;
+  width: 15vw;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+#sale h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+#sale h4 {
+  margin: 30px 0;
+  font-size: 1.5rem;
+}
+#sale button .btn1 {
+  padding: 20px;
+  color: wheat;
+  background-color: black;
+}
+
+#footer {
+  height: 250px;
+  background-color: royalblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+a {
+  font-size: 1.5rem;
+  margin-left: 7vw;
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h2 {
+  margin-bottom: 3vh;
+}
+
+#men {
+  padding-top: 20vh;
+}
+#men .menhead {
+  display: flex;
+  padding-left: 60px;
+}
+#men .menhead .menabout h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#men .menhead h5 {
+  font-size: 1.3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+#men .menhead .btn2 {
+  padding: 15px 35px;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+}
+#men .menimage {
+  background-image: url(https://www.octaveclothing.com/cdn/shop/files/11B.jpg?v=1724328546&width=600);
+  width: 600px;
+  margin-left: 20px;
+}
+#men .mencollection {
+  display: grid;
+  gap: 30px;
+  padding-left: 120px;
+  padding-top: 50px;
+  grid-template-rows: repeat(2, 350px);
+  grid-template-columns: repeat(3, 350px);
+  padding-bottom: 20px;
+}
+#men .mencollection .box6 {
+  width: 300px;
+  height: 350px;
+}
+#men .mencollection .box6 span {
+  font-size: 2rem;
+  color: crimson;
+}
+
+@media (max-width: 450px) {
+  .menu {
+    display: block;
+  }
+  #nav #navbar {
+    display: none;
+  }
+  #check:checked ~ header #nav #navbar {
+    display: block;
+    background-color: cadetblue;
+    margin-top: 250px;
+    margin-right: 40%;
+  }
+  #box .box1 {
+    padding-bottom: 10px;
+    width: 400px;
+  }
+  #box .box2 {
+    padding-bottom: 10px;
+    width: 400px;
+  }
+  #box .box3 {
+    padding-bottom: 10px;
+    width: 400px;
+  }
+  .container {
+    grid-template-columns: repeat(auto-fill, 400px);
+  }
+  .container .box4 {
+    width: 420px;
+    height: 270px;
+    padding-right: 120px;
+  }
+  #sale {
+    height: auto;
+  }
+  #footer {
+    height: auto;
+  }
 }/*# sourceMappingURL=index.css.map */
