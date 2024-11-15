@@ -47,7 +47,8 @@ body {
   font-size: 1.7rem;
 }
 #nav #navbar a:hover {
-  background-color: red;
+  transition: 2s;
+  color: orangered;
 }
 #nav .logo {
   height: 60px;
@@ -185,6 +186,11 @@ p {
   padding: 20px;
   color: wheat;
   background-color: black;
+}
+#sale .btn1:hover {
+  transition: 3s;
+  background-color: transparent;
+  color: black;
 }
 
 #footer {

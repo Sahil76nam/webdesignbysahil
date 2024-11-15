@@ -49,7 +49,9 @@ body{
       font-size: 1.7rem;
    }
    #navbar a:hover{
-      background-color: red;
+      
+      transition: 2s;
+      color: orangered;
    }
   
 
@@ -196,6 +198,11 @@ p{
       padding: 20px;
       color: wheat;
       background-color: black;
+   }
+   .btn1:hover{
+      transition: 3s;
+      background-color: transparent;
+      color: black;
    }
    
 }
