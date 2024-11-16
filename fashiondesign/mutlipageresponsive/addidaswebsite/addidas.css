@@ -1,1 +1,82 @@
-/*# sourceMappingURL=addidas.css.map */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav #navbar .nav1 {
+  background-color: black;
+  height: 40px;
+}
+nav #navbar .nav1 h3 {
+  padding-left: 40%;
+  padding-top: 7px;
+  color: white;
+  font: 1em sans-serif;
+}
+nav #navbar .nav2 {
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 40px;
+  padding-right: 40px;
+}
+nav #navbar .nav2 li {
+  list-style: none;
+}
+nav #navbar .nav2 a {
+  text-decoration: none;
+  color: black;
+}
+nav #navbar .nav2 a:hover {
+  border-bottom: 3px solid black;
+}
+nav #navbar .nav3 {
+  display: flex;
+  height: 20%;
+  align-items: center;
+  padding-top: 3px;
+  justify-content: space-around;
+}
+nav #navbar .nav3 li {
+  list-style: none;
+}
+nav #navbar .nav3 a {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+nav #navbar .nav3 a:hover {
+  border-bottom: 3px solid black;
+}
+
+main .firstheading {
+  height: 40px;
+  background-color: burlywood;
+  padding-left: 35%;
+  padding-top: 10px;
+  font: 1em sans-serif;
+}
+main a {
+  color: #000;
+  font: 1em sans-serif;
+}
+main a i {
+  padding-left: 410px;
+}
+main .bgcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+main .bgcontainer .bg1 {
+  height: 500px;
+  width: 700px;
+  background-image: url(bg1.jpeg);
+}/*# sourceMappingURL=addidas.css.map */
