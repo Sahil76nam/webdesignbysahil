@@ -24,11 +24,13 @@ nav{
             
             height: 12%;
             
+            
             display: flex;
             align-items: center;
             justify-content: right;
             gap: 40px;
             padding-right: 40px;
+             
             li{
                 list-style: none;
             }
@@ -38,6 +40,7 @@ nav{
              &:hover{
                 
                 border-bottom:3px solid black ;
+                
                
             }   
                 
@@ -67,11 +70,12 @@ nav{
 
         }
     }
-} 
+}
+
 main{
     .firstheading{
         height: 40px;
-        background-color: burlywood;
+        background-color: rgb(212, 143, 53);
         padding-left: 35%;
         padding-top: 10px;
         
@@ -88,16 +92,80 @@ main{
     .bgcontainer{
          display: flex;
         flex-direction: row;
-        gap: 10px;
+        
         .bg1{
             height: 500px;
-            width: 700px;
-            background-image: url(bg1.jpeg);
+            width: 450px;
+            border: 1px solid black;
+            background-image: url(img_7.jpg);
+            
+            background-position: center;
+            background-repeat: no-repeat;
+             background-size: 100%;
+             #bg1heading{
+                margin-top: 60%;
+                margin-left: 50px;
+                h1{
+                    background-color: white;
+                    width: 60%;
+                    
+                    margin-bottom: 10px;
+                }
+                h4{
+                    background-color: white;
+                    width: 90%;
+                    
+                    margin-bottom: 20px;
+
+                }
+                button{
+                    .btn1{
+                        padding: 15px;
+                    }
+                }
+
+             }
+            
+            
+            
+        }
+        .bg2{
+            height: 500px;
+            width: 450px;
+            border: 1px solid black;
+            background-color: antiquewhite;
+            color: white;
+            
+            h1{
+                 margin-top: 30%;
+                font-size: 4.6rem;
+                margin-left: 30px;
+                
+                
+                span{
+                    font-size: 9rem;
+                    margin-bottom: 40px;
+                }
+            }
+            
+            
+        }
+        .bg3{
+            height: 500px;
+            width: 450px;
+            border: 1px solid black;
+            background-image: url(OIP.jpeg);
+            background-size: 100%;
+            
+            
+            
+            
             
             
             
         }
         
+            
     }
 }   
 
