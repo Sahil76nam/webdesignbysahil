@@ -319,11 +319,77 @@ main .secondp h1 {
 #footer {
   display: flex;
   flex-direction: row;
-  height: 500px;
-  background-color: antiquewhite;
+  height: 470px;
   justify-content: space-around;
   padding-top: 40px;
 }
 #footer .footer1 h1 {
   font-size: 1.2rem;
+  padding-bottom: 30px;
+}
+#footer .footer1 p {
+  margin: 20px 0;
+}
+#footer .footer1 a {
+  font-size: 1.5rem;
+}
+
+.footerend {
+  height: 130px;
+  background-color: #282C31;
+  padding-left: 35vw;
+  padding-top: 30px;
+}
+.footerend p {
+  margin-bottom: 40px;
+  color: #ECEFF1;
+}
+.footerend h5 {
+  color: white;
+  padding-left: 40px;
+}
+
+@media (max-width: 450px) {
+  nav #navbar .nav1 h3 {
+    padding-left: 100px;
+  }
+  nav #navbar .nav2 {
+    display: none;
+  }
+  nav #navbar .nav3 .logo {
+    margin-left: 35vw;
+  }
+  nav #navbar .nav3 a {
+    display: none;
+  }
+  main .firstheading h5 {
+    margin-right: 80px;
+  }
+  main .bgcontainer {
+    flex-direction: column;
+  }
+  main .popular1 {
+    flex-direction: column;
+  }
+  main .popular1 h1 {
+    margin: 0 60px;
+  }
+  main #paragraph {
+    padding: 0 30px;
+    height: auto;
+  }
+  main #paragraph .logo {
+    padding: 20px 50px;
+  }
+  main .secondp {
+    padding-right: 50px;
+  }
+  #footer {
+    flex-direction: column;
+    margin-left: 140px;
+    height: auto;
+  }
+  .footerend {
+    padding-left: 40px;
+  }
 }/*# sourceMappingURL=addidas.css.map */
